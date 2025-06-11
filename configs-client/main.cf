@@ -1,0 +1,6 @@
+relayhost = [IP_SERVEUR]:587
+smtp_tls_security_level = may
+smtp_use_tls = yes
+smtp_tls_note_starttls_offer = yes
+smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
+smtp_sasl_auth_enable = no
