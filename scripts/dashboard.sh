@@ -1,10 +1,12 @@
-# 1. Installation
-echo "Installation des dépendances nécessaires..."
+#!/bin/bash
+
+info "°°° Installation du dashboard °°°"
+echo "Installation des dépendances..."
 sudo apt install -y python3.11-venv python3-pip python3-tk python3-psutil python3-pytz
 
-echo "Installation du dashboard"
+echo "Installation du dashboard en tant qu'exécutable..."
 sudo cp -r dashboard /usr/local/lib/dashboard/
 sudo cp dashboard/dashboard.sh /usr/local/bin/dashboard
 sudo chmod +x /usr/local/bin/dashboard
 
-success "Installation de X11Forwarding effectuée avec succès..."
+success "Installation du dashboard terminée avec succès"

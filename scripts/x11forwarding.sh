@@ -1,8 +1,11 @@
+#!/bin/bash
+
 CONFIG_DIR="./config/sshd"
 TARGET_DIR="/etc/ssh/sshd_config.d"
 
 # 1. Installation
-echo "Installation des dépendances nécessaires à X11 Forwarding..."
+info "°°° Installation de X11Forwarding °°°"
+echo "Installation des dependances..."
 sudo apt update
 sudo apt install -y openssh-server xauth
 

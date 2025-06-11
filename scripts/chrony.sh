@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 1. Installation
-echo "°°° Installation de chrony °°°"
+info "°°° Installation de chrony °°°"
+echo "Installation des dependances..."
 sudo apt update
 sudo apt install -y chrony
 
