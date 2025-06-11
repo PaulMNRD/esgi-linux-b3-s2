@@ -13,6 +13,6 @@ execute "postfix"
 
 execute "x11forwarding"
 
-execute "dashboard.sh"
+execute "dashboard"
 
 info "=== Fin de la configuration ==="
