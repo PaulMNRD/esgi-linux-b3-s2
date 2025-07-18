@@ -2,7 +2,7 @@
 
 info "°°° Configuration de PAM °°°"
 echo "Installation des dependances..."
-sudo apt install -y libpam-pwquality
+sudo apt install -y libpam-pwquality libpam-modules libpam-modules-bin libpam-runtime
 
 echo "Configuration des politiques de sécurité..."
 # disponibilité du login
