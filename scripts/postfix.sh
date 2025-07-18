@@ -1,10 +1,10 @@
 #!/bin/bash
 
-info "°°° Installation de Postfix et mailutils °°°"
+info "°°° Installation de Postfix °°°"
 # === CONFIGURATION À MODIFIER ===
 GMAIL_USER="frin.arcoss@gmail.com"
 GMAIL_PASS="qwkvhuaglsqoxxwr"
-GMAIL_TEST="pmenard3@myges.fr"
+GMAIL_TEST="frin.arthur@gmail.com"
 
 # === INSTALLATION ===
 echo "Installation des dépendances..."
