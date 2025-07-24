@@ -1,0 +1,12 @@
+[Unit]
+Description=Send email notification on system reboot
+After=network-online.target postfix.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/reboot_notification.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
